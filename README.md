@@ -31,9 +31,9 @@ $ flask run
 
 2. The database is stored in the Neo4j import directory.
 
-3. For test purpose, a dashboard for Patient Sentiment Analtytics Dashboard is provided, with empty data - modify code to fit your usecase
+3. For test purpose, a dashboard for Patient Sentiment Analtytics Dashboard is provided  with the data. You will need to modify code to fit your usecase using your own data.
 
-4. [Bokeh](https://pypi.org/project/bokeh/) is used for the sentiment analtytic dashboard.
+4. [Bokeh](https://pypi.org/project/bokeh/) is used for the sentiment analyttic dashboard.
 
 ### References
 Birchard, T.(2019), “Using Flask-Login to Handle User Accounts”. Retrieved from https://hackersandslackers.com/flask-login-user-authentication, and GITHUB: https://github.com/toddbirchard/flasklogin-tutorial
