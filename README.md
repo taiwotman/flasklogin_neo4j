@@ -25,6 +25,13 @@ $ pip --trusted-host pypi.python.org --trusted-host files.pythonhosted.org --tru
 $ flask run
 ```
 
+## Assumptions
+1. Prior knowledge of Neo4j Graph Database
+
+2. The database is stored in the Neo4j import directory.
+
+3. For test purpose, a dashboard for Patient Survey is provided, with empty data(please modify code to suite your usecase)
+
 ## References
 Birchard, T.(2019), “Using Flask-Login to Handle User Accounts”. Retrieved from https://hackersandslackers.com/flask-login-user-authentication, and GITHUB:https://github.com/toddbirchard/flasklogin-tutorial
 
