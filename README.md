@@ -30,7 +30,7 @@ $ flask run
 
 2. The database is stored in the Neo4j import directory.
 
-3. For test purpose, a dashboard for Patient Survey is provided, with empty data(please modify code to suite your usecase)
+3. For test purpose, a dashboard for Patient Survey is provided, with empty data - modify code to fit your usecase
 
 4. [Bokeh](https://pypi.org/project/bokeh/) is used for the sentiment analtytic dashboard.
 
