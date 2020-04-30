@@ -9,4 +9,17 @@ Implementing Flask Login with Neo4j
 ![WTForms](https://img.shields.io/badge/WTForms-v2.2.1-blue.svg?longCache=true&logo=python&style=flat-square&logoColor=white&colorB=5e81ac&colorA=4c566a)
 ![Flask-Assets](https://img.shields.io/badge/Py2neo--v4.30-blue.svg?longCache=true&logo=flask&style=flat-square&logoColor=white&colorB=5e81ac&colorA=4c566a)
 
+_This project is an implementation of [Flask Login](https://flask-login.readthedocs.io/en/latest/#module-flask_login) with [Neo4j](https://neo4j.com/) graph database_ using the [py2neo](https://pypi.org/project/py2neo/) library
 
+
+## Getting Started
+
+The quickest way to run this script locally is by using [Pipenv](https://pipenv-fork.readthedocs.io/en/latest/):
+
+```shell
+$ git clone https://github.com/toddbirchard/flasklogin-tutorial.git
+$ cd flasklogin-tutorial
+$ pipenv shell
+$ pipenv update
+$ flask run
+```
