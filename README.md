@@ -17,9 +17,10 @@ _This project is an implementation of [Flask Login](https://flask-login.readthed
 The quickest way to run this script locally is by using [Pipenv](https://pipenv-fork.readthedocs.io/en/latest/):
 
 ```shell
-$ git clone https://github.com/toddbirchard/flasklogin-tutorial.git
-$ cd flasklogin-tutorial
+$ git clone git@github.com:taiwotman/flasklogin_neo4j.git
+$ cd flasklogin-neo4j
 $ pipenv shell
 $ pipenv update
+$ pip --trusted-host pypi.python.org --trusted-host files.pythonhosted.org --trusted-host pypi.org install -r  requirements.txt 
 $ flask run
 ```
