@@ -1,0 +1,142 @@
+{% extends "layout.html" %}
+
+{% block pagestyles %}
+  <link href="{{ url_for('static', filename='dist/css/dashboard.css') }}" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" href="https://use.typekit.net/sus7rlu.css">
+  <!-- Bokeh includes-->
+<script src="https://cdn.bokeh.org/bokeh/release/bokeh-1.4.0.min.js"></script>
+<script src="https://cdn.bokeh.org/bokeh/release/bokeh-widgets-1.4.0.min.js"></script>
+<script src="https://cdn.bokeh.org/bokeh/release/bokeh-tables-1.4.0.min.js"></script>
+  <!-- Bokeh includes-->
+{% endblock %}
+
+{% block content %}
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+
+
+
+  <style>
+    /* Set height of the grid so .sidenav can be 100% (adjust as needed) */
+    .row.content {height: 550px}
+
+    /* Set gray background color and 100% height */
+    .sidenav {
+      background-color: #f1f1f1;
+      height: 100%;
+    }
+
+    #hidden_div {
+    display: none;
+    }
+
+    /* On small screens, set height to 'auto' for the grid */
+    @media screen and (max-width: 767px) {
+      .row.content {height: auto;}
+    }
+  </style>
+   <p ><a style="float: right; font-size:17px; font-weight:bolder" href="{{url_for('auth_bp.logout_page')}}">Logout</a></p>
+</head>
+<body>
+
+<nav class="navbar navbar-inverse visible-xs">
+  <div class="container-fluid">
+
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="#">Dashboard</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<div class="container-fluid">
+  <div class="row content">
+
+
+    <div class="col-sm-9">
+      <div class="well">
+        <h4>SENTIMENT ANALYTICS DASHBOARD</h4>
+        <h5>{{body}}</h5>
+            {%if current_user.is_authenticated%}
+            <p style=" font-size:16px">Hi {{current_user.name}}!</p>
+            {%endif%}
+          <br/>
+      </div>
+      <div class="row" style="margin-bottom: 30px">
+        <div class="col-sm-3">
+          <div class="well">
+              <form class="form-inline" method="POST" action="{{ url_for('main_bp.dashboard') }}">
+
+              <h6>{{Facilities}}({{selected_facility}})</h6>
+                   <select name="facility" id="facility"  class="" >
+                      <option value="{{facility}}" id="{{facility}}" style="font-size:12px">Select facility</option>
+                      {% for facility in facilities[1:] %}
+                        <option value="{{facility}}"  style="font-size:12px" >{{facility}}</option>
+                      {% endfor %}
+                 </select>
+                   <button type="submit" class="button1">Go</button>
+              </form>
+          </div>
+        </div>
+        <div class="col-sm-3">
+          <div class="well">
+            <h6>Total survey</h6>
+            <p style="font-size:17px">{{count_gross}}</p>
+          </div>
+        </div>
+        <div class="col-sm-3">
+          <div class="well">
+            <h6>Patient Survey</h6>
+            <p style=" font-size:17px">{{count_patient}}</p>
+          </div>
+        </div>
+        <div class="col-sm-3">
+          <div class="well">
+            <h6>Percentage</h6>
+            <p style=" font-size:17px">{{percentage}}</p>
+          </div>
+        </div>
+      </div>
+      <div class="row" row-width="600px" >
+          <div class="col-sm-4">
+
+          </div>
+          <div class="col-sm-4" style="align-content:center">
+             {% for plot in plots %}
+                                {% for part in plot %}
+                                    {{part | safe}}
+                                {% endfor %}
+                          {% endfor %}
+         </div>
+         <div class="col-sm-4">
+         </div>
+      </div>
+      <div class="row"   style="margin-top: 50px" >
+
+
+          <div class="col-sm-5"  style="">
+               {% for plot in plots_pie %}
+                    {% for part in plot %}
+                        {{part | safe}}
+                    {% endfor %}
+              {% endfor %}
+          </div>
+           <div class="col-sm-4" style="display:{{display}}; align-content:center">
+              {% include 'positive_table.html' %}
+              {% include 'neutral_table.html' %}
+              {% include 'negative_table.html' %}
+
+         </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
+{%endblock%}

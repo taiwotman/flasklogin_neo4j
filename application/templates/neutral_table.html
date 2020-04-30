@@ -1,0 +1,34 @@
+
+<table cellspacing="0" cellpadding="0" border="0" width=800"  >
+  <tr>
+    <td >
+       <table cellspacing="0" cellpadding="1" border="0" width="768" >
+         <tr style="color:black;background-color:#CAB2D6;font-size: 10px; font-family: bold">
+            <th >No</th>
+            <th>Neutral comments</th>
+             <th style="text-align: right; padding-right:9px; width:170px">Date  </th>
+             <th style="text-align: right; padding-right:5px;width: 60px">Service code</th>
+         </tr>
+       </table>
+    </td>
+  </tr>
+  <tr>
+    <td>
+       <div style="width:783px; height:170px; overflow:auto">
+         <table cellspacing="0" cellpadding="1" border="1" width="783" >
+  <tbody>
+
+    {% for comment in neutral %}
+
+      <tr style="color:black;background-color:white; font-size: 10px" >
+          <td align="left">{{loop.index}}</td>
+          <td align="left" width="auto">{{ comment[0] }}</td>
+          <td  style="padding-left:0px; text-align: left; width:55px">{{ comment[1] }}</td>
+          <td  style="padding-right:20px; text-align: left">{{ comment[2] }}</td>
+      </tr>
+    {% endfor %}
+
+  </tbody>
+
+         </table>
+       </div></table>
