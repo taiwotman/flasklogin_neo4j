@@ -11,7 +11,7 @@ _This project is an implementation of [Flask Login](https://flask-login.readthed
 ![Bokeh](https://img.shields.io/badge/Bokeh-v2.2.0-blue.svg?longCache=true&logo=python&style=flat-square&logoColor=white&colorB=5e81ac&colorA=4c566a)
 
 ### Project discussion
-[Implementing Flask Login with Neo4j](https://medium.com/@taiwo.adetiloye/implementing-flask-login-with-neo4j-database-54a3ac0d4cdf)
+[Implementing Flask Login with Neo4j](https://medium.com/@taiwo.adetiloye/implementing-flask-login-with-neo4j-database-54a3ac0d4cdf).
 
 ### Getting Started
 
@@ -31,9 +31,9 @@ $ flask run
 
 2. The database is stored in the Neo4j import directory.
 
-3. For test purpose, a dashboard for Patient Sentiment Analtytics Dashboard is provided  with the data. You will need to modify code to fit your usecase using your own data.
+3. For test purpose, a dashboard for Patient Sentiment Analtytics Dashboard is provided  with the data. You will need to modify the source code to fit your usecase using your own data.
 
-4. [Bokeh](https://pypi.org/project/bokeh/) is used for the sentiment analyttic dashboard.
+4. [Bokeh](https://pypi.org/project/bokeh/) is used for the sentiment analytic dashboard.
 
 ### References
 Birchard, T.(2019), “Using Flask-Login to Handle User Accounts”. Retrieved from https://hackersandslackers.com/flask-login-user-authentication, and GITHUB: https://github.com/toddbirchard/flasklogin-tutorial.
