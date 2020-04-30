@@ -1,5 +1,5 @@
 # flasklogin_neo4j
-Implementing Flask Login with Neo4j
+_This project is an implementation of [Flask Login](https://flask-login.readthedocs.io/en/latest/#module-flask_login) with [Neo4j](https://neo4j.com/) graph database_ using the [py2neo](https://pypi.org/project/py2neo/) library
 
 # Dependencies
 ![Python](https://img.shields.io/badge/Python-v3.7-blue.svg?logo=python&longCache=true&logoColor=white&colorB=5e81ac&style=flat-square&colorA=4c566a)
@@ -10,7 +10,6 @@ Implementing Flask Login with Neo4j
 ![Py2neo](https://img.shields.io/badge/Py2neo-v4.30-blue.svg?longCache=true&logo=python&style=flat-square&logoColor=white&colorB=5e81ac&colorA=4c566a)
 ![Bokeh](https://img.shields.io/badge/Bokeh-v2.2.0-blue.svg?longCache=true&logo=python&style=flat-square&logoColor=white&colorB=5e81ac&colorA=4c566a)
 
-_This project is an implementation of [Flask Login](https://flask-login.readthedocs.io/en/latest/#module-flask_login) with [Neo4j](https://neo4j.com/) graph database_ using the [py2neo](https://pypi.org/project/py2neo/) library
 
 
 ## Getting Started
