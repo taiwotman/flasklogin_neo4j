@@ -10,7 +10,7 @@ _This project is an implementation of [Flask Login](https://flask-login.readthed
 ![Py2neo](https://img.shields.io/badge/Py2neo-v4.30-blue.svg?longCache=true&logo=python&style=flat-square&logoColor=white&colorB=5e81ac&colorA=4c566a)
 ![Bokeh](https://img.shields.io/badge/Bokeh-v2.2.0-blue.svg?longCache=true&logo=python&style=flat-square&logoColor=white&colorB=5e81ac&colorA=4c566a)
 
-# Project discussion: 
+# Project discussion
 [Implementing Flask Login with Neo4j](https://medium.com/@taiwo.adetiloye/implementing-flask-login-with-neo4j-database-54a3ac0d4cdf)
 
 ## Getting Started
