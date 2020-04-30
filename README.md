@@ -31,9 +31,9 @@ $ flask run
 
 2. The Neo4j server is started and the database is stored in the Neo4j import directory.
 
-3. For test purpose, a dashboard for Sentiment Analytics Dashboard is provided  without the data. You will need to modify the source code to fit your usecase.
+3. For test purpose, a dashboard for sentiment analytics dashboard is provided  without the data. You will need to modify the source code to fit your usecase.
 
-4. [Bokeh](https://pypi.org/project/bokeh/) is used for the sentiment analytic dashboard.
+4. [Bokeh](https://pypi.org/project/bokeh/) is used to create the sentiment analytics dashboard.
 
 ### References
 Birchard, T.(2019), “Using Flask-Login to Handle User Accounts”. Retrieved from https://hackersandslackers.com/flask-login-user-authentication, and GITHUB: https://github.com/toddbirchard/flasklogin-tutorial.
