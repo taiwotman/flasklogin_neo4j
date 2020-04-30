@@ -29,7 +29,7 @@ $ flask run
 ### Basic assumptions
 1. Prior knowledge of  Neo4j  cypher queries and graph database.
 
-2. The database is stored in the Neo4j import directory.
+2. The Neo4j server is started and the database is stored in the Neo4j import directory.
 
 3. For test purpose, a dashboard for Patient Sentiment Analtytics Dashboard is provided  without the data. You will need to modify the source code to fit your usecase.
 
