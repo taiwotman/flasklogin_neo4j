@@ -7,7 +7,8 @@ Implementing Flask Login with Neo4j
 ![Flask-Login](https://img.shields.io/badge/Flask--Login-v0.4.1-blue.svg?longCache=true&logo=flask&style=flat-square&logoColor=white&colorB=5e81ac&colorA=4c566a)
 ![Flask-Assets](https://img.shields.io/badge/Flask--Assets-v0.12-blue.svg?longCache=true&logo=flask&style=flat-square&logoColor=white&colorB=5e81ac&colorA=4c566a)
 ![WTForms](https://img.shields.io/badge/WTForms-v2.2.1-blue.svg?longCache=true&logo=python&style=flat-square&logoColor=white&colorB=5e81ac&colorA=4c566a)
-![Flask-Assets](https://img.shields.io/badge/Py2neo-v4.30-blue.svg?longCache=true&logo=python&style=flat-square&logoColor=white&colorB=5e81ac&colorA=4c566a)
+![Py2neo](https://img.shields.io/badge/Py2neo-v4.30-blue.svg?longCache=true&logo=python&style=flat-square&logoColor=white&colorB=5e81ac&colorA=4c566a)
+![Bokeh](https://img.shields.io/badge/Bokeh-v2.2.0-blue.svg?longCache=true&logo=python&style=flat-square&logoColor=white&colorB=5e81ac&colorA=4c566a)
 
 _This project is an implementation of [Flask Login](https://flask-login.readthedocs.io/en/latest/#module-flask_login) with [Neo4j](https://neo4j.com/) graph database_ using the [py2neo](https://pypi.org/project/py2neo/) library
 
@@ -31,6 +32,8 @@ $ flask run
 2. The database is stored in the Neo4j import directory.
 
 3. For test purpose, a dashboard for Patient Survey is provided, with empty data(please modify code to suite your usecase)
+
+4. [Bokeh](https://pypi.org/project/bokeh/) is used for the sentiment analtytic dashboard.
 
 ## References
 Birchard, T.(2019), “Using Flask-Login to Handle User Accounts”. Retrieved from https://hackersandslackers.com/flask-login-user-authentication, and GITHUB: https://github.com/toddbirchard/flasklogin-tutorial
