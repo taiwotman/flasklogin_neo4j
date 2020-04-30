@@ -1,6 +1,9 @@
 ## flasklogin_neo4j
 _This framework is an implementation of the [Flask Login](https://flask-login.readthedocs.io/en/latest/#module-flask_login) with [Neo4j](https://neo4j.com/) graph database_ using the [py2neo](https://pypi.org/project/py2neo/) library.
 
+<p align="center"> 
+ <img width="600" height="400" src="https://github.com/taiwotman/flasklogin_neo4j/blob/master/application/static/dist/img/flasklogin_neo4j_framework.png"></p>
+
 ### Dependencies
 ![Python](https://img.shields.io/badge/Python-v3.7-blue.svg?logo=python&longCache=true&logoColor=white&colorB=5e81ac&style=flat-square&colorA=4c566a)
 ![Flask](https://img.shields.io/badge/Flask-v1.1.1-blue.svg?longCache=true&logo=flask&style=flat-square&logoColor=white&colorB=5e81ac&colorA=4c566a)
