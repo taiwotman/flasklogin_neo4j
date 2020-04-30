@@ -43,7 +43,7 @@ Birchard, T.(2019), “Using Flask-Login to Handle User Accounts”. Retrieved f
 
 White, N.(2015), “Building a Python web application using Flask and Neo4j” OSCON, Portland, Oregon, Accessed at https://conferences.oreilly.com/oscon/open-source-2015/public/schedule/detail/42146.
 
-### You want to be a contributor.
+### You want to be a contributor
 
 Fork repository
 
