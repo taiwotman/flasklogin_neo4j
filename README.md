@@ -15,7 +15,7 @@ _This project is an implementation of [Flask Login](https://flask-login.readthed
 
 ### Getting Started
 
-The quickest way to run this script locally is by using [Pipenv](https://pipenv-fork.readthedocs.io/en/latest/):
+To get started quickly use [Pipenv](https://pipenv-fork.readthedocs.io/en/latest/):
 
 ```shell
 $ git clone git@github.com:taiwotman/flasklogin_neo4j.git
