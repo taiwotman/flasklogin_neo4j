@@ -1,20 +1,20 @@
-Click #==7.0
-cssmin #==0.2.0
+Click ==7.0
+cssmin ==0.2.0
 Flask==1.1.1
 py2neo==4.3.0
-Flask-Assets #==0.12
-Flask-Login #==0.4.1
-itsdangerous #==1.1.0
-Jinja2 #==2.10.3
-jsmin #==2.2.2
-lesscpy #==0.13.0
-MarkupSafe #==1.1.1
-ply #==3.11
-python-dotenv #==0.10.2
+Flask-Assets ==0.12
+Flask-Login ==0.4.1
+itsdangerous ==1.1.0
+Jinja2 ==2.10.3
+jsmin ==2.2.2
+lesscpy ==0.13.0
+MarkupSafe ==1.1.1
+ply ==3.11
+python-dotenv ==0.10.2
 six==1.12.0
-webassets #==0.12.1
-Werkzeug #==0.16.0
-WTForms #==2.2.1
+webassets ==0.12.1
+Werkzeug ==0.16.0
+WTForms ==2.2.1
 Flask_WTF
 bokeh
 flask-paginate
