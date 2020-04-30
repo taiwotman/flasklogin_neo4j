@@ -1,5 +1,5 @@
 ## flasklogin_neo4j
-_This project is an implementation of [Flask Login](https://flask-login.readthedocs.io/en/latest/#module-flask_login) with [Neo4j](https://neo4j.com/) graph database_ using the [py2neo](https://pypi.org/project/py2neo/) library
+_This project is an implementation of [Flask Login](https://flask-login.readthedocs.io/en/latest/#module-flask_login) with [Neo4j](https://neo4j.com/) graph database_ using the [py2neo](https://pypi.org/project/py2neo/) library.
 
 ### Dependencies
 ![Python](https://img.shields.io/badge/Python-v3.7-blue.svg?logo=python&longCache=true&logoColor=white&colorB=5e81ac&style=flat-square&colorA=4c566a)
@@ -27,7 +27,7 @@ $ flask run
 ```
 
 ### Basic assumptions
-1. Prior knowledge of  Neo4j  cypher queries and graph database
+1. Prior knowledge of  Neo4j  cypher queries and graph database.
 
 2. The database is stored in the Neo4j import directory.
 
@@ -36,9 +36,9 @@ $ flask run
 4. [Bokeh](https://pypi.org/project/bokeh/) is used for the sentiment analyttic dashboard.
 
 ### References
-Birchard, T.(2019), “Using Flask-Login to Handle User Accounts”. Retrieved from https://hackersandslackers.com/flask-login-user-authentication, and GITHUB: https://github.com/toddbirchard/flasklogin-tutorial
+Birchard, T.(2019), “Using Flask-Login to Handle User Accounts”. Retrieved from https://hackersandslackers.com/flask-login-user-authentication, and GITHUB: https://github.com/toddbirchard/flasklogin-tutorial.
 
-White, N.(2015), “Building a Python web application using Flask and Neo4j” OSCON, Portland, Oregon, Accessed at https://conferences.oreilly.com/oscon/open-source-2015/public/schedule/detail/42146
+White, N.(2015), “Building a Python web application using Flask and Neo4j” OSCON, Portland, Oregon, Accessed at https://conferences.oreilly.com/oscon/open-source-2015/public/schedule/detail/42146.
 
 ### You want to be a contributor.
 
