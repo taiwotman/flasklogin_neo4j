@@ -26,7 +26,7 @@ $ pip --trusted-host pypi.python.org --trusted-host files.pythonhosted.org --tru
 $ flask run
 ```
 
-## Assumptions
+## Basic assumptions
 1. Prior knowledge of  Neo4j  cypher queries and graph database
 
 2. The database is stored in the Neo4j import directory.
