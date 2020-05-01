@@ -1,3 +1,8 @@
+"""
+Author: Taiwo O. Adetiloye
+Date: Dec 27, 2019 
+"""
+
 """Routes for logged-in application."""
 from bokeh.plotting import figure
 from bokeh.embed import components
@@ -26,10 +31,7 @@ compile_auth_assets(app)
 @login_required
 def dashboard():
     """Serve logged in Dashboard."""
-    # query = "MATCH (f:Facility)  WHERE f.facility_code<>'NULL'  RETURN f.facility_code ORDER BY f.facility_code"
-    # facilities = db.graph.run(query).data()
-    # for facility in facilities:
-    #     #     lists.append(facility['f.facility_code'])
+ 
     facilities = [''] #Enter list items
     selected_facility = request.form.get('facility')
 
