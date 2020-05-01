@@ -17,4 +17,4 @@ Werkzeug ==0.16.0
 WTForms ==2.2.1
 Flask_WTF
 bokeh
-flask-paginate
+
