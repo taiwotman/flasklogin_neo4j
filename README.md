@@ -34,7 +34,7 @@ $ flask run
 
 2. The Neo4j server is started and the database is stored in the Neo4j import directory.
 
-3. For test purpose, a dashboard for sentiment analytics dashboard is provided  without the data. You will need to modify the source code to fit your usecase.
+3. For test purpose, a dashboard for sentiment analytics is provided  without the data. You will need to modify the source code to fit your usecase.
 
 4. [Bokeh](https://pypi.org/project/bokeh/) is used to create the sentiment analytics dashboard.
 
