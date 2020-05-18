@@ -25,7 +25,7 @@ $ git clone git@github.com:taiwotman/flasklogin_neo4j.git
 $ cd flasklogin-neo4j
 $ pipenv shell
 $ pipenv update
-$ pip --trusted-host pypi.python.org --trusted-host files.pythonhosted.org --trusted-host pypi.org install -r  requirements.txt 
+$ pip install -r  requirements.txt 
 $ flask run
 ```
 
