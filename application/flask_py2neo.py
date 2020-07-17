@@ -2,7 +2,7 @@ from __future__ import absolute_import
 from flask import current_app
 from py2neo import Graph
 import os
-__version__ = "0.2.0"
+__version__ = "4.3.0"
 
 
 username = os.environ.get('NEO4J_USERNAME')
