@@ -28,7 +28,7 @@ class User(UserMixin, GraphObject):
 
     def find(self):
         # user = db.graph.find_one('User', 'email', self.email)  # ! deprecated
-        user = matcher.march("User", email = self.email).first()
+        user = matcher.match("User", email = self.email).first()
         return user
 
     def get_id(self):
@@ -36,7 +36,7 @@ class User(UserMixin, GraphObject):
 
         #user = db.graph.find_one('User', 'email', self.email) # ! find_one deprecated
         #id = db.graph.run(query, parameters={'email': user['email']}).evaluate()  # ! deprecated
-        user = matcher.march("User", email = self.email).first()
+        user = matcher.match("User", email = self.email).first()
         id = db.graph.run(query, email = user['email']).evaluate()
  
         return id
