@@ -47,7 +47,7 @@ White, N.(2015), “Building a Python web application using Flask and Neo4j” O
 
 If you are interested in contributing to improve this project; please, do either of the following:
 
-* Open an [issue](https://github.com/taiwotman/flasklogin_neo4j/issues)
+* Open an [issue](https://github.com/taiwotman/flasklogin_neo4j/issues?q=is%3Aissue+is%3Aclosed)
 
 * Fork repository
 
