@@ -5,8 +5,8 @@ import os
 __version__ = "4.3.0"
 
 
-username = "neo4j"
-password = "test"
+username = "neo4j"  # Insert flask username here
+password = "test"   # Insert flask pass here
 
 class Py2Neo(object):
     def __init__(self, app=None):
