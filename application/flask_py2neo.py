@@ -5,8 +5,8 @@ import os
 __version__ = "4.3.0"
 
 
-username = os.environ.get('NEO4J_USERNAME')
-password = os.environ.get('NEO4J_PASSWORD')
+username = "neo4j"
+password = "test"
 
 class Py2Neo(object):
     def __init__(self, app=None):

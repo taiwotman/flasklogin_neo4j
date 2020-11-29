@@ -9,6 +9,7 @@ from .models import db, User
 from .import login_manager
 from datetime import datetime
 import re
+import sys
 
 # Blueprint Configuration
 auth_bp = Blueprint('auth_bp', __name__,
@@ -20,6 +21,7 @@ compile_auth_assets(app)
 @auth_bp.route('/login', methods=['GET', 'POST'])
 def login_page():
     """User login page."""
+    app.logger.info("login")
     # Bypass Login screen if user is logged in
     if current_user.is_authenticated:
         return redirect(url_for('main_bp.dashboard'))

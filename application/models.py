@@ -2,7 +2,7 @@
 from . import db
 from werkzeug.security import generate_password_hash, check_password_hash
 from flask_login import UserMixin
-from py2neo import Node, NodeMatcher
+from py2neo import Node, NodeMatcher, Graph
 from py2neo.ogm import GraphObject, Property
 from datetime import datetime
 
@@ -49,8 +49,7 @@ class User(UserMixin, GraphObject):
         """Create hashed password."""
         self.password = generate_password_hash(password, method='sha256')
         if not self.find():
-            user = 
-            ('User', name=self.name, email=self.email, password=self.password, website=self.website, created_on=self.created_on, last_login=self.last_login)
+            user = Node('User', name=self.name, email=self.email, password=self.password, website=self.website, created_on=self.created_on, last_login=self.last_login)
             db.graph.create(user)
             return True
         else:

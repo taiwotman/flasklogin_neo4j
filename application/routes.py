@@ -31,6 +31,8 @@ compile_auth_assets(app)
 @login_required
 def dashboard():
     """Serve logged in Dashboard."""
+    print("logging in")
+    print('enter getJSONReuslt', flush=True)
  
     facilities = [''] #Enter list items
     selected_facility = request.form.get('facility')
