@@ -31,6 +31,7 @@ compile_auth_assets(app)
 @login_required
 def dashboard():
     """Serve logged in Dashboard.""" 
+    
     facilities = [''] #Enter list items
     selected_facility = request.form.get('facility')
 
