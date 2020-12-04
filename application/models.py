@@ -2,7 +2,7 @@
 from . import db
 from werkzeug.security import generate_password_hash, check_password_hash
 from flask_login import UserMixin
-from py2neo import Node, NodeMatcher, Graph
+from py2neo import Node, NodeMatcher
 from py2neo.ogm import GraphObject, Property
 from datetime import datetime
 

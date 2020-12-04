@@ -9,7 +9,6 @@ from .models import db, User
 from .import login_manager
 from datetime import datetime
 import re
-import sys
 
 # Blueprint Configuration
 auth_bp = Blueprint('auth_bp', __name__,
