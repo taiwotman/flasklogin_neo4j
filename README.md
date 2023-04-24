@@ -51,5 +51,5 @@ If you are interested in contributing to improve this project; please, do either
 
 * Fork repository
 
-* Send me a [message](https://taiwotman.github.io)
+* Send me a [message](https://taiwotman.github.io/#contact)
 
