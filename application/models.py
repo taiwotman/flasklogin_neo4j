@@ -49,8 +49,7 @@ class User(UserMixin, GraphObject):
         """Create hashed password."""
         self.password = generate_password_hash(password, method='sha256')
         if not self.find():
-            user = 
-            ('User', name=self.name, email=self.email, password=self.password, website=self.website, created_on=self.created_on, last_login=self.last_login)
+            user = Node('User', name=self.name, email=self.email, password=self.password, website=self.website, created_on=self.created_on, last_login=self.last_login)
             db.graph.create(user)
             return True
         else:
